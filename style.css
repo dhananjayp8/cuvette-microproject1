@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&display=swap");
 * {
   margin: 0;
   box-sizing: border-box;
@@ -8,7 +9,7 @@
   background-color: #ffcd9e;
 }
 .left {
-  margin-top: 20px;
+  margin-top: 83px;
   margin-left: 136px;
 }
 .left .heading {
@@ -26,11 +27,53 @@
   line-height: 32px;
 }
 .para-detail {
-  width: 227px;
-  height: 81px;
-  margin-top: 30px;
+  margin-top: 40px;
 }
+.para-detail h5 {
+  color: #282828;
+  font-size: 20px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 160%;
+}
+.email-address {
+  display: flex;
+  padding: 30px 0;
+}
+.email-address input {
+  width: 344px;
+  height: 64px;
+  border-radius: 8px;
+  border: 4px solid #000000;
+  font-size: 20px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  margin-right: 10px;
+}
+::placeholder {
+  padding-left: 20px;
+}
+.email-address .btn {
+  width: 216px;
+  height: 64px;
 
+  border-radius: 8px;
+  background-color: #000000;
+  color: #fff;
+  font-weight: 800;
+  font-size: 20px;
+}
+.caption {
+  width: 344px;
+  height: 61px;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+}
 .right {
   width: 575px;
   height: 575px;
@@ -38,14 +81,14 @@
 }
 
 /* Footer */
-.footer {
+footer {
   background-color: #282828;
   display: flex;
   padding: 30px;
   justify-content: space-around;
 }
 
-.footer ul {
+footer ul {
   list-style: none;
   line-height: 32px;
   color: #ffffff;
